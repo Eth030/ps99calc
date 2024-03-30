@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gem Price Calculator</title>
+</head>
+<body>
+    <form id="gemForm">
+        <label for="gemPriceRate">Gem price rate in $:</label>
+        <input type="number" id="gemPriceRate" name="gemPriceRate" step="0.01" required>
+        <label for="gemsCustomerGetting">Gems customer getting:</label>
+        <input type="number" id="gemsCustomerGetting" name="gemsCustomerGetting" required>
+        <label for="customerPays">Customer pays ($):</label>
+        <input type="number" id="customerPays" name="customerPays" step="0.01" required>
+        <button type="submit">Calculate</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "gem_price_calculator",
+  "version": "1.0.0",
+  "description": "A simple Node.js app to calculate gem prices",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0"
+  }
+}
